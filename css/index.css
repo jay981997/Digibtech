@@ -1,0 +1,114 @@
+
+/* header */
+
+.header{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.container{
+    text-align: right;
+    margin-top: 120px;
+}
+
+.space{
+    display: inline-block;
+}
+
+.container.btn::not(:last-child) {
+    margin-right: 10px;
+
+}
+
+.btn {
+    border: 1px solid #3498db;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.btn1 {
+    color: #3498db;
+}
+.btn1:hover {
+    color: #ffffff;
+}
+
+
+.btn1::before {
+    content: "";
+    position: absolute;
+    left:0;
+    width: 100%;
+    height: 0%;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+.btn1::before {
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+
+.btn1:hover::before{
+    height: 125%;
+}
+
+/* quotes */
+.middle{
+    
+}
+
+h1{
+    font-family: 'Nuosu SIL', serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Public Sans', sans-serif;
+}
+p{
+    font-family: 'Nuosu SIL', serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Public Sans', sans-serif;
+}
+.quote{
+    text-align: center;
+    margin-top: 225px;
+}
+.suffix{
+    text-align: center;
+    padding-left: 10em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
